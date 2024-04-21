@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Document</title> -->
+    <title>Form with Submit Button</title>
+    <link rel="stylesheet" href="style.css" />
+    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap'); </style>
+  </head>
+  <body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <div class="container">
+      
+      <h1 id="title">Dom Manipulation form</h1>
+      <p id="description">The form table and using Html and css and javascript </p>
+
+     
+        <form  id="form">
+          <div class=" form-group">
+          <label class="form-label " for="first-name">FirstName</label>
+          <input type="text" id="first-name" class="form-control " required  placeholder ="enter the firstname" > 
+        </div>
+
+        <div class=" form-group">
+          <label class="form-label " for="last-name">LastName</label>
+          <input type="text" id="last-name" class="form-control " required  placeholder ="enter the lastname" > 
+        </div>
+        
+          <div class="form-group">
+
+          <label class="form-label " for="Address">Address</label><br>
+          <!-- <input type="text" name="form-label" id="Address"  required placeholder="enter the Address"/> -->
+          <textarea id="address" name="address" rows="4" cols="50" required></textarea><br>
+
+        </div>
+          <div class="form-group">
+          <label class="form-filed" for="pincode">pincode</label>
+          <input type="text" name="form-filed" id="pincode"  required placeholder="enter the pincode"/>
+      </div>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+  
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other" required>
+  
+          
+            
+          
+
+          
+        
+           <div>
+          <label class="form-field" for="food">Choice Of Food</label>
+          <select class="form-field" name="food" id="food">
+            <option value="">Choice Of Food</option>
+            <option value="Meales">Meales</option>
+            <option value="Briyani">Briyani</option>
+            <option value="Bread">Bread</option>
+            <option value="Male">Steak</option>
+            <option value="Fish">Fish</option>
+          </select>
+          </div>
+         <div>
+          <label class="form-filed" for="state">state</label>
+          <input type="text" name="form-filed" id="state" />
+
+          <label class="form-filed" for="country">country</label>
+          <input type="text" name="form-filed" id="country" />
+          
+          <!-- <button  type="submit" id="sumbit">submit</button>
+          <button class="form-filed"type="resart">resart</button> -->
+          <!-- <input type="submit" id="submit" value="Submit" required> -->
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+       
+        </form>
+        
+      </div>
+
+      <table class="table">
+        <thead>
+        <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Address</th>
+        <th>Pincode</th>
+        <th>Gender</th>
+        <th>Choice Of Food</th>
+        <th>State</th>
+        <th>Country</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      </tbody>
+      
+      </table>
+    </div>
+  </body>
+</html>
